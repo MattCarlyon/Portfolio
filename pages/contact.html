@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/index-dist.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae6f0c4401.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body">
     <div class="header">
         <img src="images/Head..png" alt="logo" class="logo"><a href=""></a>
         <ul class="header-txt">
-            <li class="nav-txt"><a href="./pages/about.html"></a>About</li>
-            <li class="nav-txt"><a href="./pages/projects.html"></a>Projects</li>
-            <li class="nav-txt"><a href="./pages/testimonials.html"></a>Testimonials</li>
-            <li class="nav-txt"><a href="./pages/contact.html"></a>Contact</li>
-            <div><i class="fa-solid fa-ellipsis" styles=""></i></div>
+            <li><a href="../index.html" class="nav-txt">Home</a></li>
+            <li><a href="about.html" class="nav-txt">About</a></li>
+            <li><a href="projects.html" class="nav-txt">Projects</a></li>
+            <li><a href="testimonials.html" class="nav-txt">Testimonials</a></li>
+            <div class="ellipsis-div">
+                <i class="fa-solid fa-ellipsis" styles=""></i>
+            </div>
         </ul>
     </div>
+    <main class="screen">
+        <form class="form" autocomplete="off">
+            <h2 class="bookinginfo">Dates fill up quickly, so apply as soon as possible.</h2>
+            <h1 class="main-title">Contact</h1>
+            <div class="contact">
+                <p>Tel: 012 345 678</p>
+                <p>Email: DJbooking@email.com</p>
+            </div>
+            <input type="text" name="name" id="name" class="input" placeholder="Full Name" required autofocus>
+            <input type="email" name="email" id="email" class="input" placeholder="Email Address" required>
+            <div class="select-wrapper">
+                <select name="Occasion" class="input select" id="select">
+                    <option value="" disabled selected>Event</option>
+                    <option value="fetival">Festival</option>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="christmas">Christmas Party</option>
+                    <option value="club">Club Night</option>
+                    <option value="marketing">Marketing Event</option>
+                    <option value="house">House Party</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <textarea name="message" id="" cols="50" rows="8" placeholder="Your Message" class="textarea"></textarea>
+            <button type="submit" class="button">Submit</button>
+        </form>
+        <div>
+            <img src="../images/contact.jpeg" alt="party">
+        </div>
+   </main>
+    <footer class="footer">
+        <div class="icon">
+            <p class="footer-text">Tel:000000000000</p>
+            <p class="footer-text">Email: mattycarlyon87@gamil.com</p>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+   </footer>
 </body>
 </html>
