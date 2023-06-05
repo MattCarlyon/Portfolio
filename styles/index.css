@@ -57,7 +57,7 @@ a.hover {
 
 .title {
   color: #E5E5E5;
-  font-family: "Poppins";
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 500;
   font-size: 84px;
@@ -70,7 +70,7 @@ a.hover {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 50px;
   line-height: 34px;
   text-align: center;
   display: -webkit-box;
@@ -147,6 +147,44 @@ h3 {
   color: #d8f2b8;
 }
 
+h4 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 35px;
+  /* or 55% */
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #d8f2b8 0%, #d8f2b8 29%, white 67%, #d8f2b8 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,22 +283,21 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 35px;
-  /* or 175% */
   letter-spacing: 0.05em;
   color: #66615F;
 }
 
-/*MAIN -- SECTION INFO*/
+/* MAIN -- SECTION INFO */
 .container_one {
-  width: 100%;
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 73px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 }
 
 .info {
@@ -287,35 +324,63 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 35px;
-  /* or 175% */
   letter-spacing: 0.05em;
   color: #757575;
 }
 
-/*MAIN -- SECTION squares*/
-.container_two {
-  width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 100px;
-  gap: 72px;
-  margin-bottom: 162px;
-}
-
-.center {
+/* MAIN -- SECTION squares */
+.center-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container_two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.center1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  /* height: 100vh; */
+}
+
+.center2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .square {
-  border: 5px solid rgba(0, 0, 0, 0.97);
+  border: 5px solid #D8F2B8;
   border-radius: 10px;
-  padding: 35px 0 0 40px;
+  margin-bottom: 10px;
 }
 
 .img-border {
@@ -327,6 +392,7 @@ body {
   opacity: 50%;
 }
 
+/* media queries */
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
