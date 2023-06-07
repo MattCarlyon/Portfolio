@@ -11,67 +11,29 @@ body {
 
 /* MAIN -- SECTION INFO */
 
-.container_one {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-
-}
-
-.info {
-  width: 652px;
-  min-height: 467px;
-  margin-left: 70px;
-  padding-right: 43px;
-}
-
-.section_one-img {
-  width: 798px;
-  height: 657px;
-  margin-right: 60px;
-}
-
 .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.note {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 35px;
-  letter-spacing: 0.05em;
-  color: #757575;
-}
-
 /* MAIN -- SECTION squares */
 
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container_two {
+.containertwo {
     display: flex;
-    justify-content: center;
-    // align-items: flex-end;
-    margin-top: 20px;
+    flex-direction: row;
 }
 
-.center1 {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  /* height: 100vh; */
+.containerthree {
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 35px;
 }
 
-.center2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.containersquare {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .square {
