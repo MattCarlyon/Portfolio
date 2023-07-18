@@ -76,6 +76,22 @@ a.hover {
   color: #d8f2b8;
 }
 
+.footeremail {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  padding-left: 15px;
+  padding-right: 50px;
+  color: #d8f2b8;
+}
+
+.footeremail {
+  text-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.25);
+  color: rgb(151, 151, 151);
+}
+
 h2 {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -96,6 +112,11 @@ h1 {
   /* or 55% */
   color: #d8f2b8;
   letter-spacing: 0.1em;
+}
+
+h1:hover {
+  color: #d8f2b8;
+  text-shadow: 0 0 5px #d8f2b8, 0 0 25px #d8f2b8, 0 0 50px #d8f2b8, 0 0 100px #d8f2b8;
 }
 
 p {
@@ -167,4 +188,19 @@ h4 {
   to {
     background-position: 200% center;
   }
+}
+h2 {
+  font-size: 6em;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 }
