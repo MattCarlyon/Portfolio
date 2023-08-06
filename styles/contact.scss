@@ -14,7 +14,7 @@
     /*min-height distorted the image, max-height looked better, not sure if correct*/
     height: 100%;
     border-radius: 50px;
-    background-color: #d8f2b8;
+    background-color: #91FCDC;
     border-style: none;
     font-size: 20px;
     margin-top: 33px;
@@ -28,11 +28,11 @@
 }
 
 .button:hover {
-    background-color: #d8f2b894;
+    background-color: #91FCDC94;
 }
 
 .button:active {
-    background-color: #d8f2b894;
+    background-color: #91FCDC94;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -50,7 +50,7 @@
     /* or 175% */
 
     letter-spacing: 0.05em;
-    background-color: #d8f2b8;
+    background-color: #91FCDC;
     border-radius: 5px;
     border-style: none;
 }

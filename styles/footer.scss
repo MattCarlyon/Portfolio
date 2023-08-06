@@ -1,3 +1,4 @@
+@import 'fonts';
 
 .footer {
     display: flex;
@@ -5,7 +6,7 @@
     max-width: 1920px;
     width: 100%;
     min-height: 100px;
-    background-color: rgb(17, 17, 17);
+    background-color: #0d192e(17, 17, 17);
     justify-content: center;
     align-items: center;
     font-size: 30px;
