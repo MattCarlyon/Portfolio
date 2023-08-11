@@ -35,7 +35,7 @@ a.hover {
 
 .nav-txt:hover {
   text-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.25);
-  color: rgb(151, 151, 151);
+  color: hsl(279, 100%, 80%);
 }
 
 .title {
@@ -76,6 +76,20 @@ a.hover {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .footer-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
 .footeremail {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -87,11 +101,20 @@ a.hover {
   color: #91FCDC;
 }
 
-.footeremail {
-  text-shadow: 0px 4px 4px, rgba(0, 0, 0, 0.25);
-  color: rgb(151, 151, 151);
+@media (max-width: 768px) {
+  .footeremail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
 }
-
 h2 {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -116,7 +139,7 @@ h1 {
 
 h1:hover {
   color: #91FCDC;
-  text-shadow: 0 0 5px #91FCDC 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+  text-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
 }
 
 p {

@@ -93,6 +93,20 @@ a.hover {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .footer-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
 .footeremail {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -104,6 +118,20 @@ a.hover {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .footeremail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
 h2 {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -210,42 +238,66 @@ h2 {
   color: #91FCDC;
 }
 
-.burger-menu {
-  display: none; /* Hide burger menu by default */
-  cursor: pointer;
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 40px;
+  max-width: 100%;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #0d192e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-right: 50px;
 }
 
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+.header-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  max-width: 276px;
+  width: 100%;
+  max-height: 25px;
+  list-style: none;
 }
 
-@media screen and (max-width: 768px) {
-  .burger-menu {
-    display: block; /* Display burger menu on smaller screens */
+/* Media query for iPhone-sized screens */
+@media (max-width: 768px) {
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; /* Center header content */
+    margin-right: 0; /* Remove right margin on smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
   }
   .header-txt {
-    display: none; /* Hide nav links by default on smaller screens */
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: #0d192e;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 100%;
-    text-align: right;
-    z-index: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 100%; /* Adjust max-width for smaller screens */
   }
-  .header-txt.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; /* Display nav links when burger menu is active */
+  .header-txt li {
+    margin-right: 10px;
+  }
+  .header-txt a {
+    font-size: 14px;
   }
 }
 .main {
@@ -342,6 +394,20 @@ a.hover {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .footer-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
 .footeremail {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -353,6 +419,20 @@ a.hover {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .footeremail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px; /* Adjust font size for small screens */
+  }
+}
 h2 {
   font-family: "Source Sans Pro";
   font-style: normal;

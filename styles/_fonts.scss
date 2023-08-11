@@ -79,6 +79,16 @@ a.hover {
     color:#91FCDC;
 }
 
+@media (max-width: 768px) {
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+}
+
 
 .footeremail {
     font-family: 'Source Sans Pro';
@@ -90,6 +100,16 @@ a.hover {
     padding-right: 50px;
     color:#91FCDC;
     }
+
+@media (max-width: 768px) {
+    .footeremail {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+}
 
 //Contact
 
