@@ -12,3 +12,11 @@
     padding: 30px;
     box-sizing: border-box;
   }
+
+  @media (max-width: 768px) {
+    .squaretest {
+        width: 100%; 
+        max-width: 400px; 
+        padding: 15px; 
+    }
+}
