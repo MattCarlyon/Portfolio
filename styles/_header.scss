@@ -25,18 +25,14 @@
 /* Media query for iPhone-sized screens */
 @media (max-width: 768px) {
     .header {
-        justify-content: center; /* Center header content */
-        margin-right: 0; /* Remove right margin on smaller screens */
-        padding: 10px; /* Adjust padding for smaller screens */
+        justify-content: center; 
+        margin-right: 0; 
+        padding: 0px;
     }
 
     .header-txt {
         justify-content: center;
-        max-width: 100%; /* Adjust max-width for smaller screens */
-    }
-
-    .header-txt li {
-        margin-right: 10px;
+        max-width: 100%; 
     }
 
     .header-txt a {

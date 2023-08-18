@@ -126,22 +126,6 @@ h2 {
   letter-spacing: 0.05em;
 }
 
-h1 {
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 35px;
-  /* or 55% */
-  color: #91FCDC;
-  letter-spacing: 0.1em;
-}
-
-h1:hover {
-  color: #91FCDC;
-  text-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
-}
-
 p {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -152,6 +136,21 @@ p {
   color: #91FCDC;
 }
 
+@media (max-width: 768px) {
+  .p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    color: #91FCDC;
+  }
+}
 .textarea {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -165,6 +164,39 @@ p {
   border-style: none;
 }
 
+@media (max-width: 768px) {
+  .textarea {
+    display: none;
+  }
+}
+.bookinginfo {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  /* or 175% */
+  letter-spacing: 0.05em;
+  color: #91FCDC;
+}
+
+@media (max-width: 768px) {
+  .bookinginfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #91FCDC;
+  }
+}
 h3 {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -185,7 +217,22 @@ h4 {
   letter-spacing: 0.1em;
 }
 
-.animate-charcter {
+@media (max-width: 768px) {
+  .h4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #91FCDC;
+  }
+}
+.animate-character {
   text-transform: uppercase;
   background-image: linear-gradient(-225deg, #91FCDC 0%, white 29%, white 67%, #91FCDC 100%);
   background-size: auto auto;
@@ -201,22 +248,127 @@ h4 {
   font-size: 50px;
 }
 
+@media (max-width: 768px) {
+  .animate-character {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #91FCDC;
+  }
+}
 @-webkit-keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
-
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
 }
-h2 {
+.reactive-p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* or 175% */
+  letter-spacing: 0.05em;
+  color: #91FCDC;
+}
+
+@media (max-width: 768px) {
+  .reactive-p {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: #91FCDC;
+  }
+}
+.project-txt {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 34px;
   color: #91FCDC;
+}
+
+@media (max-width: 768px) {
+  .project-txt {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    color: #91FCDC;
+  }
+}
+.light {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 35px;
+  /* or 55% */
+  color: #91FCDC;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 768px) {
+  .light {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #91FCDC;
+  }
+}
+.light:hover {
+  color: #91FCDC;
+  text-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+}
+
+.test-header {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #91FCDC;
+}
+
+@media (max-width: 768px) {
+  .test-header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: #91FCDC;
+  }
 }

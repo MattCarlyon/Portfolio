@@ -31,14 +31,6 @@
   transition: 0.5s;
 }
 
-.box > span {
-  font-size: 3.8vh;
-  display: block;
-  text-align: center;
-  height: 10vh;
-  line-height: 2.6;
-}
-
 .box:hover {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50%;

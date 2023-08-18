@@ -17,6 +17,12 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .img {
+  display: none;
+  }
+}
+
 /* MAIN -- SECTION squares */
 
 .containertwo {
@@ -30,12 +36,41 @@ body {
     margin-left: 35px;
 }
 
+@media (max-width: 768px) {
+  .containerthree {
+    margin: 0 auto; 
+    width: 100%; 
+    margin-right: 5px; 
+    margin-left: 5px; 
+  }
+}
+
 .containersquare {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .containersquare {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .square {
+    padding-top: 15px; 
+    padding-left: 15px; 
+    margin-bottom: 5px; 
+  }
+}
+
+@media (orientation: landscape) {
+  .containersquare {
+    flex-direction: row; 
+    align-items: flex-start; 
+  }
 }
 
 .square1 {
@@ -48,6 +83,14 @@ body {
     padding-top: 30px;
     padding-left: 30px;
   }
+
+  @media (max-width: 768px) {
+    .square1 {
+        width: 100%; 
+        max-width: 300px; 
+        padding: 15px; 
+    }
+}
   
   .square1::before {  
     transform: scaleX(0);
@@ -74,12 +117,6 @@ body {
     inline-size: 100%;
   }
   
-  @media (orientation: landscape) {
-    .square1 {
-      grid-auto-flow: column;
-    }
-  }
-
 .square2 {
     position: relative;
     width: 400px; 
@@ -92,6 +129,13 @@ body {
     
   }
   
+  @media (max-width: 768px) {
+    .square2 {
+        width: 100%; 
+        max-width: 300px; 
+        padding: 15px; 
+    }
+}
   
   .square2::before {  
     transform: scaleX(0);
