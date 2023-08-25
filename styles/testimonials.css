@@ -17,6 +17,11 @@
           box-sizing: border-box;
 }
 
+.squaretest:hover {
+  -webkit-box-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+          box-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+}
+
 @media (max-width: 768px) {
   .squaretest {
     width: 100%;

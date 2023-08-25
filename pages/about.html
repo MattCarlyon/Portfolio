@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ae6f0c4401.js" crossorigin="anonymous"></script>
+    <script src="../components/about.js" defer></script>
 </head>
 <body class="body">
     <div class="header">
@@ -27,7 +28,7 @@
         <div class="containerone">
             <div class="containertwo">
                 <div class="containerthree">
-                    <p class="light">About Me...</p>
+                    <p class="light2">About Me...</p>
                     <p class="reactive-p">Hi. I'm Matt a 36yo who's currently living in Stockholm with my partner and 18 month old daughter.</p>
                     <p class="reactive-p">I've recently finished a 6 month IT: Front-end Developer at Sundsgårdens folkhögskola (which i loved!) and am now looking for my first full-time job in the tech industry. 
                         From the age of 18 my career has been in the construction industry as a Project Manager and Quantity Surveyor for both clients and building contractors. 
@@ -41,7 +42,7 @@
                 </div>
             </div>
             <div class="containersquare">
-                <div class="square1">
+                <div class="square1" id="square1">
                     <i class="fa-solid fa-person fa-beat fa-2xl" style="color: #ffffff;"></i>
                     <h3>CV</h3>
                     <p>Please click here for my CV</p>
@@ -53,6 +54,12 @@
                         <p>Please click here for my Github account</p>
                     </div>
                 </a>
+            </div>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <iframe src="../Images/MatthewCarlyonCV_2023.pdf"></iframe>
+                    <button id="closeBtn">Close</button>
+                </div>
             </div>
         </div>
     <footer class="footer">
