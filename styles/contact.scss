@@ -7,11 +7,49 @@
     margin-top: 72px;
 }
 
+// .button {
+//     max-width: 300px;
+//     width: 100%;
+//     max-height: 200px;
+//     /*min-height distorted the image, max-height looked better, not sure if correct*/
+//     height: 100%;
+//     border-radius: 50px;
+//     background-color: #91FCDC;
+//     border-style: none;
+//     font-size: 20px;
+//     margin-top: 33px;
+//     font-family: 'Inter', sans-serif;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: 65px;
+//     letter-spacing: 0.05em;
+//     cursor: pointer;
+// }
+
+// @media (max-width: 768px) {
+//     .button {
+//     display: none;
+//     }
+// }
+
+// .button:hover {
+//     filter: drop-shadow(0 0 5px #91FCDC)
+//             drop-shadow(0 0 25px #91FCDC)
+//             drop-shadow(0 0 50px #91FCDC)
+//             drop-shadow(0 0 100px #91FCDC);
+// }
+
+// .button:active {
+//     color: #e52e71;
+//     background-color: #e52e71;
+//     box-shadow: 0 5px #e52e71;
+//     transform: translateY(4px);
+// }
+
 .button {
     max-width: 300px;
     width: 100%;
     max-height: 200px;
-    /*min-height distorted the image, max-height looked better, not sure if correct*/
     height: 100%;
     border-radius: 50px;
     background-color: #91FCDC;
@@ -23,24 +61,33 @@
     font-weight: 700;
     line-height: 65px;
     letter-spacing: 0.05em;
-    cursor: pointer;
+    cursor: pointer;;
 }
 
 @media (max-width: 768px) {
     .button {
-    display: none;
+        display: none;
     }
 }
 
 .button:hover {
-    background-color: #91FCDC94;
+    filter: drop-shadow(0 0 5px #91FCDC)
+            drop-shadow(0 0 25px #91FCDC)
+            drop-shadow(0 0 50px #91FCDC)
+            drop-shadow(0 0 100px #91FCDC);
 }
 
 .button:active {
-    background-color: #91FCDC94;
-    box-shadow: 0 5px #666;
+    color: #e52e71;
+    background-color: #e52e71;
+    box-shadow: 0 5px #e52e71;
     transform: translateY(4px);
+    filter: drop-shadow(0 0 5px #e52e71)
+            drop-shadow(0 0 25px #e52e71)
+            drop-shadow(0 0 50px #e52e71)
+            drop-shadow(0 0 100px #e52e71);
 }
+
 
 .input {
     width: 715px;
