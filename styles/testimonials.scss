@@ -7,16 +7,16 @@
 }
 
   
-.squaretest {
+.squaretest1 {
     width: 800px;
     border: 5px solid #91FCDC;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 30px;
     box-sizing: border-box;
   }
 
-  .squaretest:hover {
+  .squaretest1:hover {
     box-shadow: 0 0 5px #91FCDC,
                 0 0 25px #91FCDC,
                 0 0 50px #91FCDC,
@@ -24,10 +24,33 @@
 }
 
   @media (max-width: 768px) {
-    .squaretest {
+    .squaretest1 {
         width: 100%; 
         max-width: 400px; 
         padding: 15px; 
     }
+}
+.squaretest2 {
+  width: 800px;
+  border: 5px solid #91FCDC;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.squaretest2:hover {
+  box-shadow: 0 0 5px #e52e71,
+              0 0 25px #e52e71,
+              0 0 50px #e52e71,
+              0 0 100px #e52e71;
+}
+
+@media (max-width: 768px) {
+  .squaretest2 {
+      width: 100%; 
+      max-width: 400px; 
+      padding: 15px; 
+  }
 }
 
