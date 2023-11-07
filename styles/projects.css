@@ -20,7 +20,6 @@
   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   line-height: 0;
-  border-radius: 20px;
 }
 
 .box > img {
@@ -30,7 +29,6 @@
      object-fit: cover;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-radius: 20px;
 }
 
 .box:hover {
