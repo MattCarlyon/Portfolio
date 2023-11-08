@@ -233,6 +233,7 @@ h4 {
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
+  padding-bottom: 5px;
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;

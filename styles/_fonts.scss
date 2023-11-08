@@ -218,24 +218,25 @@ h4 {
 
 .animate-character
 {
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #91FCDC 0%,
-    white 29%,
-    white 67%,
-    #91FCDC 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #91FCDC 0%,
+        white 29%,
+        white 67%,
+        #91FCDC 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    padding-bottom: 5px;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 50px;
 }
 
 @media (max-width: 768px) {
