@@ -1,4 +1,4 @@
-.container {
+.coding {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,4 +43,60 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
+}
+
+.pmbox {
+  width: 800px;
+  border: 5px solid #91FCDC;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pmbox:hover {
+  -webkit-box-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+          box-shadow: 0 0 5px #91FCDC, 0 0 25px #91FCDC, 0 0 50px #91FCDC, 0 0 100px #91FCDC;
+}
+
+@media (max-width: 768px) {
+  .pmbox {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+  }
+}
+.pm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 4% 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+}
+
+.pm .item {
+  width: 29.33%; /* Adjust width for three items per row */
+  margin-bottom: 2%; /* Add some spacing between items */
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 1024px) {
+  .pm .item {
+    width: 46%;
+  }
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .pm .item {
+    width: 100%;
+  }
 }
