@@ -44,6 +44,7 @@
   margin-bottom: 60px;
   padding: 30px;
   box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
 .pmbox:hover {
@@ -60,6 +61,7 @@
       padding: 15px; 
   }
 }
+
 .pm {
   display: flex;
   flex-wrap: wrap;
@@ -67,7 +69,6 @@
   width: 100%;
   padding: 4% 2%;
   box-sizing: border-box;
-  height: 100vh;
 }
 
 .pm .item {
@@ -75,16 +76,24 @@
   margin-bottom: 2%;
 }
 
-/* Media query for tablets */
 @media screen and (max-width: 1024px) {
   .pm .item {
     width: calc(50% - 4%);
   }
 }
 
-/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .pm .item {
     width: calc(100% - 4%);
   }
 }
+
+//page layout 
+
+.pmpage {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+
