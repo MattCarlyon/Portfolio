@@ -6,15 +6,16 @@
     max-width: 1920px;
     width: 100%;
     min-height: 100px;
-    background-color: #0d192e(17, 17, 17);
+    background-color: #0d192e;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     position:relative;
     bottom: 0;
-    margin-top: 20px;
-    
+    margin-top: 50px;
+    border-top: 5px solid #e52e71; 
 }
+
 
 .icon {
     display: flex;
