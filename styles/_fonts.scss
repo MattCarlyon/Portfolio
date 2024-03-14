@@ -298,6 +298,27 @@ h4 {
     }
 }
 
+.pmboxtxt {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    opacity: 0.69;
+    color:#91FCDC;
+}
+
+@media (max-width: 768px) {
+    .pmboxtxt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        font-size: 15px; 
+        color: #91FCDC;
+    }
+}
+
 // Index
 
 .light {
